@@ -12,7 +12,7 @@ module fa_tb;
   reg A, B,Cin;
   wire s, carry;
 
-  // Instantiate the half adder module
+  // Instantiate the full adder module
   fa u(.s(s), .carry(carry), .A(A), .B(B), .Cin(Cin));
 
   initial begin
